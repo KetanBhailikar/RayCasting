@@ -119,12 +119,12 @@ def main():
     for j in range(numberOfWalls):
         walls.append(wall())
 
-    loop = True
+    loop = Trues
 
     # create a wndow of size "screenSize"
     win = pygame.display.set_mode((screenSize*2,screenSize))
     # set its title to "Ray Tracing"
-    pygame.display.set_caption("Ray Tracing")
+    pygame.display.set_caption("Ray Casting")
     # calculate number of rays
     nofrays = feildOfView//angleBetweenRays
 
