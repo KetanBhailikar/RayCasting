@@ -119,7 +119,7 @@ def main():
     for j in range(numberOfWalls):
         walls.append(wall())
 
-    loop = Trues
+    loop = True
 
     # create a wndow of size "screenSize"
     win = pygame.display.set_mode((screenSize*2,screenSize))
